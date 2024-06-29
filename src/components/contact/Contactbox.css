@@ -1,0 +1,11 @@
+.contactbox .icon span{
+    font-size: 30px;
+}
+.contactbox{
+    transition: 1s all;
+   background-color:var(--section-bg);
+   margin-top: 50px;
+}
+.contactbox:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,39 @@
+.about .success h2{
+    text-align: center;
+    font-size: 2.3rem;
+    color: var(--text-color);
+    font-weight: bold;
+    margin: 30px 0px 50px 0px;
+
+}
+.about .heading h3{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: var(--primary-color);
+}
+.about .courcesbox .border{
+    display: none;
+}
+.about .about-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.about .video-section{
+    margin-bottom: 100px;
+}
+.about .financial{
+    margin: 100px 0px;
+    padding: 70px 0px;
+    background-color: var(--section-bg);
+}
+.about .financial .about-btn{
+    margin-top: 20px;
+}
+.about .financial .button{
+    padding: 15px 20px;
+}
+.about video{
+    max-width: 800px;
+    width: 100%;
+}

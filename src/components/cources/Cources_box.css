@@ -1,0 +1,37 @@
+.courcesbox{
+    padding: 40px 20px 40px;
+    background-color:white;
+    color:#222f5d;
+    margin-bottom:20px ;
+    
+    transition: all 1s;
+    position: relative;
+    
+
+    
+}
+
+/* .courcesbox::before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 600px;
+    left: 75px;
+    top: -100px;
+    background-color: var(--primary-color);
+    animation: animate 10s linear infinite;
+} */
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.border{
+    border-top: 2px solid black;
+    width: 30px;
+    margin: 0 auto;
+}

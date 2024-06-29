@@ -1,0 +1,47 @@
+.Testimonialsbox{
+    position: relative;
+    background-color: var(--section-bg);
+    margin-top: 70px!important;
+}
+.Testimonialsbox .image{
+    position: absolute;
+    top:-60px;
+    left:380px;
+}
+.Testimonialsbox .title h4{
+    
+    margin-top: 20px;
+    color: var(--text-color);
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    
+
+}
+.Testimonialsbox .title small{
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: var(--text-color);
+    
+    
+}
+.Testimonialsbox .icon{
+    color: var(--primary-color);
+    font-size: 16px;
+    letter-spacing: 5px;
+    margin: 10px 0px 20px 0px;
+
+}
+.Testimonialsbox span{
+    letter-spacing: 1px;
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+
+@media screen and (max-width:500px){
+    .Testimonialsbox .image{
+        left: 100px;
+    }
+}

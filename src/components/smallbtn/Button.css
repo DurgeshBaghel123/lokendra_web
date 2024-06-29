@@ -1,0 +1,11 @@
+ .about-btn{
+    color: #222f5d;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 3px 15px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.85;
+    display: inline-block;
+    border: none;
+}

@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Sato, sans-serif;
+    
+}
+/*for LIGHT theme color*/
+:root{
+ --primary-color:#00c5e7;
+--section-bg: #f9fafe;
+--main-body-bg:#ffffff;
+--highlight-color:#ff7070;
+--text-color:#222f5d;
+--btn-color:#ffffff;
+}
+/*data-theme hai tou dark likin mai nay light lik diya hai */
+[data-theme="light"]{
+ --primary-color:#00c5e7;
+--section-bg:#222f5d;
+--main-body-bg:#000000;
+--highlight-color:#ff7070;
+--text-color:#ffffff;
+--btn-color:#ffffff;
+}
+p{
+    letter-spacing: 1.5px;
+    margin-bottom: 40px;
+    
+}
+
+
+
+

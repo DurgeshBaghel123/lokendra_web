@@ -1,0 +1,25 @@
+
+.logos{
+    overflow: hidden;
+    white-space: nowrap;
+}
+@keyframes slide{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.slide-logos{
+    display: inline-block;
+    white-space: nowrap;
+    animation: 30s slide infinite linear;
+}
+.slide-logos img{
+    height: 50%;
+    margin-right:130px;
+}
+.logos:hover .slide-logos{
+    animation-play-state: paused;
+}

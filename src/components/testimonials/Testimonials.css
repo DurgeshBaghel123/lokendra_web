@@ -1,0 +1,22 @@
+.react-multiple-carousel__arrow{
+    display: none;
+}
+.react-multi-carousel-dot button{
+    background-color: var(--text-color);
+    border:none!important;
+} 
+.react-multi-carousel-dot--active button{
+    
+    background: var(--primary-color)!important;
+    border:none!important;
+}
+.testimonils_section{
+    position: relative;
+}
+.testimonils_section .blogimage{
+    position: absolute;
+    width: 150px;
+    top: 0px;
+    left: -50px;
+    z-index: 0;
+}

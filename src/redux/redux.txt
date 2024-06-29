@@ -1,0 +1,13 @@
+Redux library ka use hm state ko hangle krnay kay liye krtay hai. state ko hm context api and context hook kay through bhi
+krsktay hai likin bo right wave nhi. right wave redux library hai esi hm redux library ka use krtay hai.
+basically redux library three part pr kaam krti hai.
+ 1. action = action means hota kya krna hai
+ 2.reducer = reducer means hota hai jo action aya hai usay kaisay krna hai
+ 3.store   = store hmaray state ko store krkr rkta hai.
+
+ and redux library mai two hooks aur hotay hai.
+    1. useDispatch : useDispatch hooks ka use hm action daynay kay liye use krtay hai. useDispatch hooks ek action type send krta hai
+    2. useSelector : useSelector hooks ka use state ko store say use krnay kay liye use krtay hai. useSelector state value ko input krta hai.
+
+and redux library ka use krnay kay liye hmay npm /* i redux react-redux */ command ka use krna hota hai.
+aur apnay project ki app file ko provider kay under rkna hota hai jis hm redux store ko apnay puray project mai use krskay.

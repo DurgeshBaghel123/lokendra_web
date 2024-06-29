@@ -1,0 +1,6 @@
+.container-fluid{
+    background-color: var(--main-body-bg);
+}
+p{
+    color: var(--text-color);
+}

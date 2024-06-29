@@ -1,0 +1,84 @@
+.about-content-block{
+    background-color:var(--section-bg);
+    box-shadow: 4px 0 12px 4px rgba(0,0,0,0.15);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.about_section .about-btn:hover{
+    background-color: var(--highlight-color);
+    color:#ffffff;
+}
+.about_section h2{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    line-height: 1.28;
+    font-weight: 600;
+}
+.about-content-block .title span{
+    background-color: var(--primary-color);
+    color: var(--btn-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+}
+.about-content-block .title h4{
+    font-size: 1.5rem;
+        padding-top: 6px;
+        padding-left: 20px;
+        font-weight: 500;
+        
+}
+.about-content-block .title{
+    margin-bottom: 10px;
+}
+.about_section{
+    
+    position: relative;
+    
+}
+.about_section .arrowimage{
+    position: absolute;
+    left: 541px;
+    top: 353px;
+}
+@keyframes about_image{
+    from{
+        margin-top: 0px;
+    }
+    to{
+        margin-top: 20px;
+    }
+}
+.about_section .bg-image img{
+    animation: 3s about_image infinite;
+    
+}
+.about_section .content{
+    padding-right: 50px;
+}
+
+@media screen and (max-width:500px){
+    .arrowimage{
+        display: none;
+    }
+    .about_section h2{
+        font-size: 24px;
+    }
+    .about_section p{
+        font-size: 14px;
+    }
+    .about_section .content{
+        padding-right: 0px;
+    }
+    .about_section .bg-image img{
+        animation-play-state: paused;
+    }
+}

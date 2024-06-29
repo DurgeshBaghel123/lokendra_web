@@ -1,0 +1,71 @@
+.home-section{
+   background-color: var(--section-bg);
+   color: var(--text-color);
+}
+.about_section{
+   /* background-color: var(--section-bg); */
+   color: var(--text-color);
+}
+.slider_section{
+   background-color: #ffffff;
+}
+.cources_section{
+   background-color: var(--section-bg);
+   padding: 100px 0px;
+}
+.contact_section{
+   color: var(--text-color);
+   
+   
+}
+.bodyimg{
+   background-image: url('src/bgimage/glossy-Circle-yellow-3d-png-1-removebg-preview (1).webp');
+   background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+  background-size: 400px;
+  
+}
+
+.home-section .col-md-6 h1{
+   font-size: 4rem;
+   font-weight: 700;
+   margin-top: 20px;
+   margin-bottom: 40px;
+}
+.home-section .col-md-6 h1 span{
+   color: var(--primary-color);
+}
+
+.home-section .image{
+   text-align: right;
+   position: relative;
+}
+.home-section .image .pop-up{
+   position: absolute;
+   bottom:50px;
+   left: 35px;
+}
+.home-section .image img{
+   width: 75%;
+}
+.slider{
+   background-color:#ffffff;
+}
+
+
+@media screen and (max-width:500px){
+   .home-section .image{
+      text-align: center;
+      margin-top: 30px;
+   }
+   .home-section .image img{
+      width: 100%;
+   }
+   .home-section .col-md-6 h1{
+      font-size: 2.6rem;
+   }
+   .home-section .image .pop-up{
+      display: none;
+   }
+}
